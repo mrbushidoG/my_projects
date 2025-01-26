@@ -1,0 +1,72 @@
+body{
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+}
+
+table {
+    display: block;
+    table-layout: fixed;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+
+th,
+td {
+    border: 1px solid white;
+    padding: 35px;
+}
+
+.btn {
+    margin-right: 13px;
+    
+}
+td.delivery-status {
+    width: 100px;
+    height: 100px;
+    padding-top: 30px;
+}
+
+td.delivery-status p {
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+td.remarks-options {
+    width: 100px;
+    height: 100px;
+    padding-top: 30px;
+}
+
+.remarks {
+    font-size: 14px;
+    margin-top: 25px;
+    
+}
+
+@media (max-width: 576px){
+    body {
+        background-color: aquamarine;
+        width: 450px;
+    }
+    td {
+        overflow-y: scroll;
+    }
+}
+
+@media (orientation: landscape){
+
+    .btn {
+         margin-right: 13px;   
+         display: inline-block;
+    }
+        td {
+        padding: 45px;
+        overflow-y: auto;
+        margin: 65px;
+    }
+}
